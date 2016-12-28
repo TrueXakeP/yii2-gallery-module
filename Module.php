@@ -45,6 +45,7 @@ class Module extends \yii\base\Module
         Yii::$app->i18n->translations['sadovojav/gallery/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
+            'forceTranslate' => true,
             'basePath' => '@vendor/sadovojav/yii2-gallery-module/messages',
             'fileMap' => [
                 'sadovojav/gallery/default' => 'default.php',
